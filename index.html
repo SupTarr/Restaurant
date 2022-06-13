@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<div class="demo-wrap">
+  <img class="demo-bg" src="./R.jpg" alt="">
+  <div class="demo-content">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Group 7 Restaurant</title>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+      <h1>Group 7 Restaurant</h1>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" value="" placeholder="Name" required pattern="[a-zA-Z]+">
+        <br>
+        <label for="lname">Last name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" value="" placeholder="Surname" required pattern="[a-zA-Z]+">
+        <br>
+        <label for="tel">Telephone:</label>
+        <br>
+        <input type="text" id="tel" name="tel" value="" placeholder="Telephone only number" required
+          pattern="[0-9]{9,10}">
+        <br>
+        <label for="people">Amount of people:</label>
+        <br>
+        <input type="text" id="people" name="people" value="" placeholder="Input only number" required pattern="[0-9]">
+        <br>
+        <label for="datecome">Date:</label>
+        <br>
+        <input type="date" id="datecome" name="datecome" required>
+        <br>
+        <label for="time">Time:</label>
+        <br>
+        <input type="time">
+        <br><br>
+        <label for="menu">Menu:</label>
+        <br>
+        <div class="checkbox">
+          <input type="checkbox" id="menu1" name="menu" value="menu1">
+          <label for="menu1"> Fried Chicken</label><br>
+          <input type="checkbox" id="menu2" name="menu" value="menu2">
+          <label for="menu2"> Frenchfries</label><br>
+          <input type="checkbox" id="menu3" name="menu" value="menu3">
+          <label for="menu3"> Omlet</label><br>
+          <input type="checkbox" id="menu4" name="menu" value="menu4">
+          <label for="menu4"> Cheesesticks</label><br>
+          <input type="checkbox" id="menu5" name="menu" value="menu5">
+          <label for="menu5"> Salmon Sushi</label><br><br>
+        </div>
+        <label for="sre">Special Request:</label><br>
+        <textarea id="sre" name="sre" value="" rows=5 cols=75
+          placeholder="Feel free to request something that you want"></textarea><br><br>
+        <input type="submit" value="Submit">
+        <br /><br />
+        <input type="reset" value="Reset">
+        <br><br>
+      </form>
+    </body>
+    <footer id="foot">
+      <h4 style='color: white;'>Contact</h4>
+      <p style='color: white;'>Tel: 081-555-5555</p>
+      <p style='color: white;'>Address: Generation thailand</p>
+    </footer>
+    <div>
+    </div>
+
+</html>

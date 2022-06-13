@@ -1,0 +1,103 @@
+html {
+  font-size: 18px;
+}
+
+* {
+  color: #3c2c1a;
+  font-family: Roboto;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.demo-bg {
+  opacity: 0.25;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.demo-content {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  background-color: #765f4c;
+  opacity: 0.75;
+  padding: 20px 0;
+}
+
+#foot {
+  text-align: center;
+  background-color: #836953;
+  opacity: 0.75;
+  height: 70px;
+  padding: 20px 0px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+label{
+  margin-top: 10px;
+}
+
+form menu {
+  background-color: #836953;
+}
+
+.demo-wrap .demo-bg {
+  height: 1000px;
+  width: 1500px;
+}
+
+label.checkbox {
+  width: 200px;
+  text-align: left !important; 
+}
+
+textarea {
+   resize: none;
+}
+
+#menu {
+  width: 25%;
+  text-align: left;
+}
+
+.checkbox {
+  display: flexbox;
+  flex-flow: column;
+  margin: 0px auto;
+  width: 150px;
+  text-align: left;
+  align-items: center;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #998370;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    overflow: scroll;
+  }
+  textarea {
+    max-width: 100%;
+  }
+}
